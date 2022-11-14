@@ -1,0 +1,48 @@
+.my-card {
+  width: 100%;  
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  background-color: #d3f1cd;  
+}
+ 
+.box {  
+  margin: 1% auto;  
+}
+
+.my-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 2%;
+  /* background-color: red; */
+}
+.padding{
+  padding-top: 1.5%;
+}
+.my-card-title {
+  width: 100%;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.my-card-paragraph {
+  font-size: 130%;
+}
+
+
+.card-links-container{
+  align-self: flex-end;
+  width: 25%;
+  /* background-color: red;   */
+  display: flex;  
+  justify-content: space-between;
+}
+
+.my-card-link {
+  font-size: 130%;
+  font-weight: 700;
+  
+}
